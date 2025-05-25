@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project: Sign-up Form</title>
+</head>
+<body>
+    <div class="page-container">
+        <div class="left-panel">
+            <div class="odin-logo">
+                <img src="./images/odin-lined.png" alt="Odin logo">
+                <h1>ODIN</h1>
+            </div>
+        </div>
+
+        <div class="right-panel">
+            <div class="intro">
+                <p>Project: Sign-up form</p>
+                <p>Let's GO!</p>
+            </div>
+
+            <!-- form -->
+             <form action="#" method="post">
+                <div class="fieldset-container">
+                <fieldset>
+                    <legend>Let's do this</legend>
+                    <div class="form-row">
+                        <div>
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name" placeholder="George" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div>
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name" placeholder="Washington" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="sample@email.com" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" minlength="9" maxlength="9" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" id="confirm-password" name="confirm-password" minlength="9" maxlength="9" required>
+                    </div>
+                </fieldset>
+                </div>
+                <div class="btn-container">
+                    <button type="submit">Create Account</button>
+                </div>
+             </form>
+             <div class="log-in-container">
+                <p class="log-in">Already have an account?<a href="#"> Log in</a></p>
+             </div>
+        </div>
+    </div>
+</body>
+</html>
